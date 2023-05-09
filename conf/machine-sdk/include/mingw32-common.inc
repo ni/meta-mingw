@@ -21,7 +21,7 @@ DISTRO_FEATURES_FILTER_NATIVESDK:remove:mingw32 = "debuginfod"
 SDK_PACKAGING_FUNC = "do_compile"
 
 # Causes an endless loop
-#SDKTAROPTS_append = " -h --hard-dereference"
+# SDKTAROPTS:append = " -h --hard-dereference"
 
 SDKUSE_NLS = "no"
 SDKIMAGE_LINGUAS = ""
