@@ -38,9 +38,9 @@ TESTSDKEXT_CLASS_NAME = ""
 WINDMC:mingw32 = "${HOST_PREFIX}windmc"
 WINDRES:mingw32 = "${HOST_PREFIX}windres --include-dir=${STAGING_INCDIR}"
 RC:mingw32 = "${WINDRES}"
-WINDMC:sdkmingw32 = "${HOST_PREFIX}windmc"
-WINDRES:sdkmingw32 = "${HOST_PREFIX}windres --include-dir=${STAGING_INCDIR}"
-RC:sdkmingw32 = "${WINDRES}"
+WINDMC:class-cross-canadian = "${HOST_PREFIX}windmc"
+WINDRES:class-cross-canadian = "${HOST_PREFIX}windres --include-dir=${STAGING_INCDIR}"
+RC:class-cross-canadian = "${WINDRES}"
 
 export WINDMC
 export WINDRES
